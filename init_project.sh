@@ -23,7 +23,9 @@ python3 -m venv .venv
 
 source .venv/bin/activate
 
-pip install reflex --upgrade 
+pip install --upgrade pip
+
+pip install reflex
 
 pip freeze > requirements.txt
 
